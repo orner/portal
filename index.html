@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>Orner Portal</title>
+    <meta charset="utf-8">
+    <link rev="made" href="mailto:lance%40orner.net">
+    <script src="portal.js"></script>
+    <link rel="stylesheet" type="text/css" href="portal.css">
+    </head>
+
+    <body>
+      <header>
+        <h1>Orner Portal</h1>
+        <div id="weather"></div>
+        <div id="stock"></div>
+      </header>
+
+      <div class="links">
+        <div class="linkgroup">
+          <span class="linkgroupname">Mail:</span> 
+          <a href="https://mail.google.com/mail/ca/u/0/#inbox">Orner Mail</a> -
+          <a href="http://www.orner.net/">Orner.net</a> -
+          <a href="http://www.orner.com/">Orner.com</a> -
+          <a href="http://mail.google.com/">GMail</a> -
+          <a href="http://mail.yahoo.com/">Yahoo Mail</a> - 
+          <a href="https://mail.igt.com/owa/auth.owa">IGT Mail</a> - 
+          <a href="https://webmail.orner.com">Orner.com Mail</a> -
+        </div>
+
+        <div class="linkgroup">
+          <span class="linkgroupname"> Office: </span>
+          <a href="http://onepointcrib.com/tt-rss">Reader</a> -
+	  <a href="http://feedly.com/i/my">Feedly</a> -
+          <a href="https://www.evernote.com/Home.action">Evernote</a> -
+          <a href="https://www.google.com/calendar/hosted/orner.net/render">Calendar</a> -
+          <a href="https://docs.google.com/a/orner.net/?tab=co#owned-by-me">Google Docs</a> -
+          <a href="https://www.google.com/contacts/a/orner.net">Google Contacts</a> -
+          <a href="https://play.google.com/music/listen">Music</a> -
+          <a href="https://www.amazon.com/gp/dmusic/mp3/player">Amazon Player</a> -
+          <a href="https://campus.washoe.k12.nv.us/campus/portal/washoe.jsp">Infinite Campus</a> -
+          <a href="https://drive.google.com/">Google Drive</a> -
+          <a href="https://onepointcrib.com/owncloud">Owncloud</a> -
+        </div>
+
+        <div class="linkgroup">
+          <span class="linkgroupname"> News: </span>
+          <a href="http://www.rgj.com/">Reno Gazette Journal</a> - 
+          <a href="http://news.google.com/">Google News</a> -
+          <a href="http://slashdot.org/">Slashdot</a> - 
+          <a href="http://www.reddit.com">Reddit</a> -
+          <a href="https://news.ycombinator.com/">Hacker News</a> -
+          <a href="http://my.yahoo.com/">My Yahoo</a> - 
+          <a href="http://www.chicoer.com/">Chico Enterprise-Record</a> - 
+          <a href="http://www.washingtonpost.com/">Washington Post</a> -
+          <a href="http://www.nytimes.com/">NY Times</a> -
+          <a href="http://news.yahoo.com">Yahoo News</a> -
+          <a href="http://makezine.com/">Makezine</a> -
+          <a href="http://blog.makezine.com/">Makezine blog</a> -
+          <a href="http://news.cnet.com/">CNet News.Com</a> - 
+          <a href="http://www.usatoday.com/">USA Today</a> - 
+          <a href="http://www.cnn.com/">CNN</a> - 
+          <a href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a> -
+          <a href="http://arstechnica.com">Ars Technica</a> -
+          <a href="http://www.salon.com">Salon</a> -
+          <a href="http://www.io9.com">IO9</a> -
+          <a href="http://boingboing.net/">Boing Boing</a> -
+          <a href="http://www.wired.com/geekdad/">Geek Dad</a> -
+          <a href="http://www.reddit.com/r/reno">Reddit:Reno</a> -
+          <a href="http://www.npr.org/">NPR</a> -
+          <a href="http://mars.jpl.nasa.gov/msl/">Mars Rover</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname"> Reno/Sparks: </span>
+          <a href="http://forecast.weather.gov/MapClick.php?lat=39.58029027440865&lon=-119.71527099609375">Sparks Weather</a> -
+          <a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=39.64018250,-119.72023010">WU Sparks Weather</a> - 
+          <a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rev&gage=visn2">Truckee River at Vista</a> -
+          <a href="http://www.nvdpspub.gov/nhp/roadhazard.aspx">Current road closures</a> -
+          <a href="http://video.dot.ca.gov/">Caltrans cameras</a> -
+          <a href="http://video.dot.ca.gov/asx/d3-truckee-scales-80.asx">Truckee Scales</a> -
+          <a href="http://www.nevadagasprices.com/index.aspx?s=Y&amp;fuel=A&amp;area=Reno&amp;area=Sparks&amp;tme_limit=60">Nevada Gas Prices</a> -
+          <a href="http://www.washoecounty.us/library/">Washoe Library</a> - 
+          <a href="http://www.sparksnaz.org/">Sparks Nazarene Church</a> -
+          <a href="http://www.igt.com/">IGT</a> - 
+          <a href="http://reno.craigslist.org/">Craiglist:Reno</a> -
+          <a href="http://www.renobridgewire.org/">Bridgewire</a> -
+          <a href="http://renocollective.com/">Reno Collective</a> -
+          <a href="http://softwaredevelopersgroup.com/">Reno Software Developers</a> -
+          <a href="http://www.meetup.com/">Meetup</a> -
+        </div>
+        <div class="linkgroup">
+
+          <span class="linkgroupname">Stirling: </span>
+          <a href="http://forecast.weather.gov/MapClick.php?lat=39.90683934719737&lon=-121.52741432189941">Stirling Weather</a> -
+          <a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:95978.1.99999&MR=1">WU Stirling</a> -
+          <a href="http://magaliaweather.com/">MagaliaWeather.com</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">General: </span>
+          <a href="http://www.merriam-webstercollegiate.com/">Merriam Webster</a> -
+          <a href="http://maps.google.com/">Google Maps</a> -
+          <a href="http://digg.com/">Digg</a> -
+          <a href="http://www.reddit.com/">Reddit</a> -
+          <a href="http://www.google.com/">Google</a> - 
+          <a href="http://www.netflix.com/">Netflix</a> - 
+          <a href="http://www.tomshardware.com/">Tom's Hardware</a> - 
+          <a href="http://keirsey.com/">Keirsey Temperment Sorter</a> - 
+          <a href="http://www.snopes.com/">Snopes</a> -
+          <a href="http://flightaware.com/live/airport/KRNO">Flightaware</a> -
+          <a href="http://www.scanmyphotos.com/">Scan My Photos</a> -
+          <a href="http://mydisneymarathon.com/Disneyland/LANCEORNER13426">Disneyland Marathon</a>
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">IGT: </span>
+          <a href="http://www.igt.com">IGT</a> -
+          <a href="http://insideigt.com/Pages/Default.aspx">Inside IGT</a> -
+          <a href="https://rnomail.igt.com/OWA/">IGT Mail</a> - 
+          <a href="http://rnoshpoint01.is.ad.igt.com/PM/PPM/SitePages/Home.aspx">Platform Prod Mgt</a> -
+          <a href="http://insideigt.com/GamesAndPlatforms/Engineering/Lists/AVP%20Core%20Feature%20Requests/Open%20Items.aspx">Feature Request Portal</a> -
+          <a href="http://qcpremier:8080/qcbin/start_a.jsp">QC Premier</a> -
+          <a href="http://rnotfsat:8080/tfs/web/Index.aspx">TFS Web</a> -
+          <a href="http://www.myhealthytracks.com/">Healthy Tracks</a> -
+          <a href="http://kb.insideigt.com:8226/igtkb/index?page=home">Knowledge Base</a> -
+          <a href="http://www.myigt.com/ProjectCentral/default.aspx">Project Server</a> -
+          <a href="http://www.igthealth.com/">IGT Health</a> -
+          <a href="https://www.netbenefits.fidelity.com/">Fedelity Netbenefits</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Social: </span>
+          <a href="https://plus.google.com/">Google+</a> -
+          <a href="http://www.flickr.com/">Flickr</a> - 
+          <a href="https://www.facebook.com">Facebook</a> - 
+          <a href="http://www.linkedin.com">Linkedin</a> - 
+          <a href="http://twitter.com/home">Twitter</a> -
+          <a href="http://www.meetup.com/">Meetup</a> -
+          <a href="https://apps.facebook.com/doubledowncasino/">Double Down</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Fitness: </span>
+          <a href="http://www.strava.com/">Strava</a> -
+          <a href="http://www.dailymile.com/">Dailymile</a> -
+          <a href="http://connect.garmin.com/">Garmin Connect</a> -
+          <a href="http://www.myfitnesspal.com/">Fitness Pal</a> -
+          <a href="http://www.coolrunning.com/index.shtml">Cool Running</a> -
+          <a href="http://www.pedalers.org/">Procrastinating Peddlers</a> -
+          <a href="http://www.meetup.com/Procrastinating-Pedalers-of-Reno-Tahoe/">Peddlers Meetup</a> -
+          <a href="http://www.bikeforums.net/forumdisplay.php?f=248">Clyde Bike Forums</a> -
+          <A HREF="http://startingstrength.wikia.com/wiki/Starting_Strength_Wiki">Starting Strength Wiki</A> - 
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Learning: </span>
+          <a href="https://my.nevada.unr.edu">My Nevada</a> -
+          <a href="https://wcl.unr.edu">UNR Webcampus</a> -
+          <a href="https://tmcc.instructure.com">TMCC</a> -
+          <a href="http://cheetahlearning.com/login/mycheetah_tab1.asp">Cheetah Learning</a> - 
+          <a href="https://www.coursera.org/">Coursera</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Readiness: </span>
+          <a href="http://wcsovolunteer.org/">WCSO Volunteer</a> -
+          <a href="http://www.fema.gov/community-emergency-response-teams">CERT FEMA</a> -
+          <a href="http://www.ready.gov/">Ready.gov</a> -
+          <a href="http://www.washoecounty.us/em">Washoe Emergency Mgt</a> -
+          <a href="http://activefiremaps.fs.fed.us/">Fire Maps</a> -
+          <a href="http://www.fema.gov/">FEMA</a> -
+          <a href="http://www.nevada.redcross.org/">Nevada Red Cross</a> -
+          <a href="http://waterdata.usgs.gov/nv/nwis/rt">Realtime Water Data</a> -
+          <a href="http://www.seismo.unr.edu/Earthquake">UNR Seizmic</a> -
+          <A HREF="http://www.firedetect.noaa.gov/viewer.htm" ADD_DATE="1329895331">SSD Fire Detection Program</A> - 
+          <A HREF="http://earthquake.usgs.gov/earthquakes/map/">Earthquakes</a>
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Sports: </span>
+          <a href="http://sports.yahoo.com/">Yahoo Sports</a> -
+          <a href="http://www.sfgiants.com/">SF Giants</a> -
+          <a href="http://www.milb.com/index.jsp?sid=t2310">Reno Aces</a> -
+ 	  <a href="http://mlb.mlb.com/cutfour/?c_id=sf">Cut4</a> -
+          <a href="http://sports.yahoo.com/mlb">Yahoo Baseball</a> -
+          <a href="http://espn.go.com/mlb/">ESPN Baseball</a> -
+          <a href="http://scores.espn.go.com/mlb/clubhouse?id=26">ESPN Giants</a> -
+          <a href="http://fantasysports.yahoo.com/">Yahoo Fantasy</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Games: </span>
+          <a href="http://www.chess.com/echess/myhome.html">Chess.com</a> -
+          <a href="https://apps.facebook.com/wordswithfriends/tracks.php?src=community&aff=wwfdotcom&crt=playnow">Words</a> -
+          <a href="http://games.yahoo.com/">Yahoo Games</a> -
+          <a href="http://www.kongregate.com/">Kongregrate</a> -
+          <a href="http://www.poptropica.com/">Poptropica</a> -
+          <a href="http://www.gameknot.com/">Gameknot</a> -
+          <a href="http://www.cribbage.org/">Cribbage</a> -
+          <a href="http://ecribbage.com/">eCribbage</a> -
+          <a href="http://www.dailycribbagehand.org/">Daily Cribbage Hand</a> -
+          <a href="http://www.uschess.org/msa/MbrDtlMain.php?12914549">My UCSF Rating</a> -
+          <a href="http://www.minecraft.net">Minecraft</a> -
+          <a href="http://jayisgames.com/games/violet/">Violet IF</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Forums: </span>
+          <a href="http://members.easynews.com/">EasyNews</a> - 
+          <a href="http://www.torrentbits.org/">TorrentBits</a> -
+          <a href="http://www.sprintusers.com/">SprintUsers</a> -
+          <a href="http://slickdeals.net/forums/f9-hot-deals.html?">Slick Deals/HotDeals</a> -
+          <a href="http://www.gettingthingsdone.com/forum/">GTD Forum</a> -
+          <a href="http://www.43folders.com/">43 Folders</a> -
+          <a href="http://www.kk.org/cooltools/">Cool Tools</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Books: </span>
+          <a href="http://www.amazon.com/">Amazon</a> - 
+          <a href="http://www.audible.com/">Audible</a> -
+          <a href="http://www.audiofilemagazine.com/">Audiofile Mag</a> -
+          <a href="http://writersalmanac.publicradio.org/">Writer's Almanac</a> -
+          <a href="http://www.mobileread.com/">Mobileread</a> -
+          <a href="http://www.pgdp.net">Distributed Proofreaders</a> -
+          <a href="http://www.gutenberg.org/wiki/Main_Page">Project Gutenberg</a> -
+          <a href="http://www.amazon.com/kindle">Kindle Store</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Shopping: </span>
+          <a href="http://www.ups.com/WebTracking/track?loc=en_US">UPS</a> -
+          <a href="http://www.fedex.com/Tracking?link=1&amp;cntry_code=us&amp;lid=//Track//Pack+Track+Corp">FedEx</a> -
+          <a href="http://www.usps.com/">USPS</a> -
+          <a href="http://www.newegg.com/">Newegg</a> - 
+          <a href="http://www.woot.com/">Woot</a> -
+          <a href="http://www.adagio.com/">Adagio Teas</a> -
+          <a href="http://www.portofsubsonline.com">Port of Subs Online</a>
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Outdoors: </span>
+          <a href="http://www.ndow.org/fish/stocking/west.shtm">NV Fishing</a> -
+          <a href="http://www.geocaching.com/">Geocaching</a> -
+          <a href="http://www.mikenchell.com/forums/index.php">Teardrop Forum</a> -
+          <a href="http://www.remarque.org/~rob/t21/">Kitchen Box</a> -
+          <a href="http://www.go-rv.com">RV Parts</a> -
+          <a href="http://www.recreation.gov">Recreation.gov</a> -
+          <a href="http://www.trails.com">Trails.com</a> -
+          <a href="http://www.campingguidenevada.com/index.html">Camping Guide</a> -
+          <a href="http://rgj.com/apps/pbcs.dll/section?category=OUT">RGJ Outdoors</a>
+          <a href="http://www.popupportal.com/index.php">Popup Portal</a> -
+          <a href="http://www.popupexplorer.com/">Popup Explorer</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Program: </span>
+          <a href="https://github.com/">Github</a> -
+          <a href="http://www.msdn.com/">MSDN</a> - 
+          <a href="http://www.gotdotnet.com/">GotDotNet</a>
+          <a href="http://www.androidcentral.com/">Android Central</a> -
+          <a href="http://www.androidguys.com/">Android Guys</a> -
+          <a href="http://developer.android.com/guide/index.html">Android Developer</a> - 
+          <a href="http://code.google.com/p/mytracks/">My Tracks</a> -
+          <a href="http://docs.python.org/py3k/">Python Docs</a> -
+          <a href="https://developers.google.com/">Google Dev</a> -
+          <a href="http://roguebasin.roguelikedevelopment.org/index.php/Complete_Roguelike_Tutorial,_using_python%2Blibtcod">Rogue Tutorial</a>
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Linux: </span>
+          <a href="http://www.linuxtoday.com/">Linux Today</a> -
+          <a href="http://www.omgubuntu.co.uk/">OMG Ubuntu!</a> -
+          <a href="http://www.ubuntu.com/">Ubuntu</a> -
+          <a href="http://kernel.org/">Kernel.org</a> -
+          <a href="http://www.h-online.com/">H Online</a> -
+          <a href="http://lwn.net">LWN</a> -
+          <a href="http://lockerproject.org/">Locker Project</a> -
+          <a href="http://todotxt.com/">Todo TXT CLI</a> -
+          <a href="http://renocollective.com/">Reno Collective</a> -
+          <a href="http://www.commandlinefu.com">Command-Line Fu</a>
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Web Prog: </span>
+          <a href="https://panel.dreamhost.com/">Dreamhost Panel</a> -
+          <a href="https://console.aws.amazon.com/s3/home?">Amazon S3</a> -
+          <a href="https://hostingmanager.secureserver.net/AccountPanel.aspx?accountUID=2349c007-b3e7-11df-9255-00114332949f">Godaddy Control</a> - 
+          <a href="http://www.orner.net/">Orner.net</a> - 
+          <a href="http://www.w3.org/MarkUp">W3 HTML Docs</a> - 
+          <a href="http://validator.w3.org/">HTML Validator</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Space: </span>
+          <a href="http://www.nasa.gov/">NASA</a> - 
+          <a href="http://www.space.com/">Space.com</a> - 
+          <a href="http://antwrp.gsfc.nasa.gov/apod/">APOD</a> -
+          <a href="http://skyandtelescope.com/">Sky and Telescope</a> -
+          <a href="http://www.heavens-above.com/">Heavens Above</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Finance: </span>
+          <a href="http://www.usbank.com/">USBank</a> - 
+          <a href="http://www.etrade.com/">Etrade</a> - 
+          <a href="http://www.google.com/finance?q=igt">IGT Stock</a> -
+          <a href="http://www.google.com/finance/portfolio?action=view&pid=1">Google Portfolio</a> -
+          <a href="http://finance.yahoo.com/">Yahoo Finance</a> - 
+          <a href="http://finance.yahoo.com/quotes/IGT,PCG,JCP,gtk.mi">Yahoo Quotes</a> -
+          <a href="http://www.fool.com/">Motley Fool</a> - 
+          <a href="https://www.treasurydirect.gov/RS/BPDLogin?application=rs">Treasury Direct</a>
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Columns: </span>
+          <a href="http://rogerebert.suntimes.com/">Roger Ebert</a> - 
+          <a href="http://www.straightdope.com/">The Straight Dope</a> - 
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Writing:</span>
+          <td>Writing:
+            <a href="http://www.eng.cam.ac.uk/help/tpl/textprocessing/">Latex links</a> -
+            <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/memoir/memman.pdf">Memoir Docs</a> -
+            <a href="http://www.tex.ac.uk/tex-archive/info/beginlatex/html/">Typesetting with Latex</a> -
+            <a href="http://www.tug.org/">Tex User Group</a> -
+            <a href="http://www.tug.org/pracjourn/">Practex Journal</a> -
+            <a href="https://www.sharelatex.com/">Share Latex</a> -
+            <a href="https://www.writelatex.com/">Write Latex</a> -
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Radio:</span>
+          <a href="http://www.radioreference.com">Radio Reference</a> -
+          <a href="http://www.radioreference.com/apps/db/?ctid=1758">Reno Frequencies/Audio</a> -
+          <a href="http://www.arrl.org/">ARRL</a> - 
+          <a href="http://www.eham.net/">EHam.net</a> - 
+          <a href="http://www.qrz.com/">QRZ.com</a> -
+          <a href="http://www.contesting.com/">Contesting</a> -
+          <a href="http://www.snars.org/">SNARS</a> -
+          <a href="http://www.cvrc.net/">Carson Radio Club</a> -
+          <a href="http://www.hamradio.com/">HRO</a> -
+          <a href="http://www.g4fon.co.uk/">Radio Projects</a> -
+          <a href="http://www.radioreference.com/apps/db/?sid=706">Nevada Trunking Systems</a> -
+          <a href="http://www.uv5r.com/">UV5R</a> -
+          <a href="http://chirp.danplanet.com/projects/chirp/wiki/Home">CHIRP Programmer</a>
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Electronics:</span>
+          <a href="http://www.alldatasheet.com/">AllDataSheet</a> -
+          <a href="http://www.olimex.com/">Olimex PCB</a> -
+          <a href="http://www.allelectronics.com/">All electronics</a> -
+          <a href="http://www.bgmicro.com/">BG Micro</a> -
+          <a href="http://www.sentex.net/%7Emwandel/">Matthias Wandel Projects</a> -
+          <a href="http://www.sparkfun.com">Spark Fun</a> -
+          <a href="http://www.arduino.cc/">Arduino</a>
+        </div>
+        <div class="linkgroup">
+          <span class="linkgroupname">Unsorted:</span>
+          <a href="https://wiki.archlinux.org/index.php/Touchpad_Synaptics">Synaptics Touchpad</a> -
+          <a href="http://emba.unr.edu/">UNR EMBA</a> -
+          <a href="https://www.coursera.org/gametheory/class/index">Game Theory</a> -
+          <a href="http://www.reddit.com/r/bicycling/">Reddit Bicycling</a> -
+          <a href="http://www.troubleshooters.com/linux/olvim.htm">Vim6 Outliner</a> -
+          <A HREF="http://hackaday.com/2009/11/09/diy-circuit-etching-video-tutorial/">DIY circuit etching video tutorial - Hack a Day</A> - 
+          <A HREF="http://www.blogger.com/home">Blogger: Dashboard</A> - 
+          <A HREF="http://www.thegreatbasininstitute.org/">The Great Basin Institute - Home</A> - 
+          <A HREF="http://blog.chavez.ws/">Joe Chavez&#39;s Blog</A> - 
+          <A HREF="http://www.co.washoe.nv.us/comdev/boards_commissions/cab/spanish_springs/ss_index.htm">Spanish Springs CAB Home Page</A> - 
+          <A HREF="http://en.origami-club.com//" >origami club</A> - 
+          <A HREF="http://www.dailycribbagehand.org/" >Daily Cribbage Hand</A> - 
+          <A HREF="http://www.seriouseats.com/recipes/2010/04/black-bean-dip-recipe.html">Healthy &amp; Delicious: Black Bean Dip | Serious Eats : Recipes</A> - 
+          <A HREF="http://www.wikispeedia.org/" >Wikispeedia, the open speed limit database</A> - 
+          <A HREF="http://dangerdeep.sourceforge.net/">Danger from the deep</A> - 
+          <A HREF="http://ocaoimh.ie/cartoonizing-photos-with-the-gimp/">Cartoonizing Photos With The GIMP</A> - 
+          <A HREF="http://kkovacs.eu/cool-but-obscure-unix-tools">Cool, but obscure unix tools :: KKovacs</A> - 
+          <A HREF="http://www.gqueues.com/">GQueues - Manage tasks &amp; to-do lists with your Google Account</A> - 
+          <A HREF="http://www.lcwo.net/?p=main" >:: lcwo.net - Learn CW Online ::</A> - 
+          <A HREF="http://www.jameco.com/Jameco/PressRoom/altoids.html?CID=usb">ALtoids, USB Charger</A> - 
+          <A HREF="http://stream-recorder.com/forum/simplest-option-removing-drm-calibre-plugins-t8349.html">The simplest option for removing DRM: Calibre Plugins - Audio/video stream recording forums</A> - 
+          <A HREF="http://www.reddit.com/r/bicycling/">bicycling</A> - 
+          <A HREF="http://dearauthor.com/ebooks/dear-jane-ebooks/setting-up-a-new-library-with-calibre?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+dearauthor+%28Dear+Author%3A+Romance+Novel+Reviews%2C+Industry+News%2C+and+Commentary%29">Setting Up a New Library with Calibre: Essential Plugins and Getting to Know Metadata | Dear Author</A> - 
+          <A HREF="http://olex.openlogic.com/wazi/2012/to-stay-informed-let-your-computer-email-you/" >To Stay Informed, Let Your Computer Email You | Wazi</A> - 
+          <A HREF="http://www.omgubuntu.co.uk/2011/01/the-omg-guide-to-must-have-indicator-applets/">The OMG! Ubuntu! Guide to the Best Indicator Applets (Updated for 11.10)</A> - 
+          <A HREF="http://hdw.eweb4.com/">Full HD wallpaper and background image search</A> - 
+
+      </div>
+      </div>
+
+    <footer>
+      <a href="mailto:lance@orner.net">lance@orner.net</a><br>
+      Copyright 2002-2014 by Lance Orner
+    </footer>
+  
+  </body>
+</html>

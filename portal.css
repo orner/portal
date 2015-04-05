@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+body, h1, h2, h3, h4, h5, h6, p, ul, dl, ol, form, fieldset, input, label, table, tbody, tfoot, th, tr, td, textarea, select {
+font-family: "robotica", "helvetica neue", helvetica, "lucinda sans unicode", "sans serif";
+font-weight: normal;
+color: #333;
+padding: 0;
+border: 0;
+margin: 0;
+/*font-size: 12px; */
+}
+
+body {
+  background: white; 
+  margin-top: 1em; 
+  margin-left:2%; 
+  margin-right:2%
+}
+
+header {
+  padding: 10px 10px 10px 10px;
+	background:#CCCCCC;
+	color: #333;
+	text-align:left;
+}
+
+header h1{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+header [delta="positive"] {
+  color: green;
+}
+header [delta="negative"] {
+  color: red;
+}
+
+footer {
+  margin: 1em;
+}
+
+div.linkgroup {
+  border-bottom: 2px solid #008BFF;
+  padding: 5px 5px 5px 5px;
+}
+
+span.linkgroupname {
+  font-weight: bold;
+}
+
+table, td, th {
+  border:1px solid #008BFF;
+  text-align: left;
+  display:none;
+}
+
+td {
+  padding: 2px 2px 2px 2px;
+}
+
+/* The first column in the table */
+tr > td:first-child { 
+  font-weight: bold; 
+  color:black;
+}
+
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}

@@ -1,0 +1,880 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  ,
+  "conditions": 1
+  ,
+  "forecast": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"NV",
+		"city":"Sparks",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"39.640000",
+		"lon":"-119.720000",
+		"zip":"89436",
+		"magic":"2",
+		"wmo":"99999",
+		"l":"/q/zmw:89436.2.99999",
+		"requesturl":"US/NV/Spanish_Springs.html",
+		"wuiurl":"http://www.wunderground.com/US/NV/Spanish_Springs.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Reno - Stead", "state":"NV", "country":"US", "icao":"KRTS", "lat":"39.66817856", "lon":"-119.87644196" }
+		,{ "city":"Reno", "state":"NV", "country":"US", "icao":"KRNO", "lat":"39.50775909", "lon":"-119.76818848" }
+		,{ "city":"Carson City", "state":"NV", "country":"US", "icao":"KCXP", "lat":"39.19055939", "lon":"-119.73191071" }
+		,{ "city":"Truckee-Tahoe", "state":"CA", "country":"US", "icao":"KTRK", "lat":"39.32004166", "lon":"-120.13956451" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Middle Spanish Springs",
+		"city":"Sparks",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSPARK13",
+		"lat":39.640217,
+		"lon":-119.720184,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"East Spanish Springs (north of La Posada)",
+		"city":"Sparks",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSPARK25",
+		"lat":39.638374,
+		"lon":-119.689117,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Autumn Trails, East Spanish Springs",
+		"city":"Sparks",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSPARK27",
+		"lat":39.652431,
+		"lon":-119.687782,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"North Spanish Springs",
+		"city":"SPARKS",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSPARK11",
+		"lat":39.667496,
+		"lon":-119.710693,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Wingfield Springs",
+		"city":"Sparks",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSPARK19",
+		"lat":39.616707,
+		"lon":-119.680435,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"RAWS DESERT SPRINGS NV US",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"MDESN2",
+		"lat":39.672501,
+		"lon":-119.769997,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Mesa Meadows",
+		"city":"Sparks",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSPARK4",
+		"lat":39.582458,
+		"lon":-119.724869,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"East Sun Valley",
+		"city":"Sun Valley",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSUNVA5",
+		"lat":39.593613,
+		"lon":-119.764503,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Sun Valley",
+		"city":"Sun Valley",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSUNVA4",
+		"lat":39.599804,
+		"lon":-119.778969,
+		"distance_km":6,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Sunset Pointe",
+		"city":"Sparks",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSPARK7",
+		"lat":39.572517,
+		"lon":-119.707291,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"South Sun Valley",
+		"city":"Sun Valley",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSUNVA6",
+		"lat":39.573193,
+		"lon":-119.776741,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Golden Valley",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO23",
+		"lat":39.613838,
+		"lon":-119.820000,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Golden Valley",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO84",
+		"lat":39.618820,
+		"lon":-119.829948,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"MAP DRI_RENO (P090) NV PSD",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"MDRNNV",
+		"lat":39.570000,
+		"lon":-119.790001,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Rock and York",
+		"city":"Sparks",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSPARK29",
+		"lat":39.552944,
+		"lon":-119.761871,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Park Verde",
+		"city":"Sparks",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSPARK30",
+		"lat":39.547527,
+		"lon":-119.767593,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Sparks",
+		"city":"Sparks",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVSPARK31",
+		"lat":39.540916,
+		"lon":-119.746758,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Panther Valley",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO57",
+		"lat":39.578304,
+		"lon":-119.828049,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Raleigh Heights",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO116",
+		"lat":39.590816,
+		"lon":-119.839386,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"University Heights",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO72",
+		"lat":39.557083,
+		"lon":-119.808113,
+		"distance_km":11,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"UNR Campus, LMR Roof",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO101",
+		"lat":39.538563,
+		"lon":-119.813110,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Reno",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO105",
+		"lat":39.525082,
+		"lon":-119.807716,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Silver Knolls - Stead",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO89",
+		"lat":39.627903,
+		"lon":-119.897964,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"MesoWest VISTA NV US UPR",
+		"city":"Sparks",
+		"state":"NV",
+		"country":"US",
+		"id":"MUR008",
+		"lat":39.510189,
+		"lon":-119.657623,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"MidTown",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO8",
+		"lat":39.515919,
+		"lon":-119.811577,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Silver Shores",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO83",
+		"lat":39.628937,
+		"lon":-119.906303,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Plumb-Kit",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO110",
+		"lat":39.506001,
+		"lon":-119.789001,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Key Largo",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO93",
+		"lat":39.626369,
+		"lon":-119.907486,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Silver Knolls, Osage Rd.",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO66",
+		"lat":39.672047,
+		"lon":-119.905006,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Silver Knolls",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO104",
+		"lat":39.669930,
+		"lon":-119.907585,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Silver Knolls & Red Rock Rd.",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO9",
+		"lat":39.671501,
+		"lon":-119.917503,
+		"distance_km":17,
+		"distance_mi":10
+		},
+		{
+		"neighborhood":"Old South West",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO71",
+		"lat":39.509918,
+		"lon":-119.831879,
+		"distance_km":17,
+		"distance_mi":10
+		},
+		{
+		"neighborhood":"East side near Rosewood Lakes",
+		"city":"Reno",
+		"state":"NV",
+		"country":"US",
+		"id":"KNVRENO19",
+		"lat":39.483040,
+		"lon":-119.737999,
+		"distance_km":17,
+		"distance_mi":10
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Sparks, NV",
+		"city":"Sparks",
+		"state":"NV",
+		"state_name":"Nevada",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"89436",
+		"magic":"2",
+		"wmo":"99999",
+		"latitude":"39.640000",
+		"longitude":"-119.720000",
+		"elevation":"1383.00000000"
+		},
+		"observation_location": {
+		"full":"Middle Spanish Springs, Sparks, Nevada",
+		"city":"Middle Spanish Springs, Sparks",
+		"state":"Nevada",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"39.640217",
+		"longitude":"-119.720184",
+		"elevation":"4533 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KNVSPARK13",
+		"observation_time":"Last Updated on December 22, 1:09 PM PST",
+		"observation_time_rfc822":"Mon, 22 Dec 2014 13:09:14 -0800",
+		"observation_epoch":"1419282554",
+		"local_time_rfc822":"Mon, 22 Dec 2014 13:09:18 -0800",
+		"local_epoch":"1419282558",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Overcast",
+		"temperature_string":"54.9 F (12.7 C)",
+		"temp_f":54.9,
+		"temp_c":12.7,
+		"relative_humidity":"57%",
+		"wind_string":"From the NNE at 10.4 MPH Gusting to 10.4 MPH",
+		"wind_dir":"NNE",
+		"wind_degrees":15,
+		"wind_mph":10.4,
+		"wind_gust_mph":"10.4",
+		"wind_kph":16.7,
+		"wind_gust_kph":"16.7",
+		"pressure_mb":"1026",
+		"pressure_in":"30.31",
+		"pressure_trend":"+",
+		"dewpoint_string":"40 F (4 C)",
+		"dewpoint_f":40,
+		"dewpoint_c":4,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"54.9 F (12.7 C)",
+		"feelslike_f":"54.9",
+		"feelslike_c":"12.7",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"2","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/NV/Spanish_Springs.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KNVSPARK13",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=39.640217,-119.720184",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"12:26 PM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Monday",
+		"fcttext":"Sunny. High around 55F. Winds NNW at 5 to 10 mph.",
+		"fcttext_metric":"Sunny. High 13C. Winds NNW at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Monday Night",
+		"fcttext":"Clear to partly cloudy. Low 31F. Winds light and variable.",
+		"fcttext_metric":"A few passing clouds. Low near -0C. Winds light and variable.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Tuesday",
+		"fcttext":"Some clouds in the morning will give way to mainly sunny skies for the afternoon. High 53F. Winds light and variable.",
+		"fcttext_metric":"Partly cloudy skies. High 12C. Winds light and variable.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Partly cloudy. Low 33F. Winds light and variable.",
+		"fcttext_metric":"Partly cloudy skies. Low 1C. Winds light and variable.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Wednesday",
+		"fcttext":"Partly cloudy skies during the morning hours will give way to cloudy skies and rain in the afternoon. High near 55F. Winds SW at 15 to 25 mph. Chance of rain 80%.",
+		"fcttext_metric":"Partly cloudy skies during the morning hours will give way to cloudy skies and rain in the afternoon. High 13C. Winds SW at 25 to 40 km/h. Chance of rain 80%.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_snow.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Rain and snow tapering off in the evening. Decreasing cloudiness late. Low near 25F. Winds WNW at 15 to 25 mph. Chance of snow 80%. Snow accumulations less than one inch.",
+		"fcttext_metric":"Cloudy with a mixture of rain and snow in the evening. Becoming partly cloudy late. Low -4C. Winds WNW at 25 to 40 km/h. Chance of snow 80%. Snow accumulations less than 2cm.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":6,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Thursday",
+		"fcttext":"Abundant sunshine. High 38F. Winds NW at 10 to 15 mph.",
+		"fcttext_metric":"Mainly sunny. High 3C. Winds NW at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Thursday Night",
+		"fcttext":"Partly cloudy. Low 19F. Winds light and variable.",
+		"fcttext_metric":"Mostly clear skies. Low -7C. Winds light and variable.",
+		"pop":"0"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1419303600",
+	"pretty":"7:00 PM PST on December 22, 2014",
+	"day":22,
+	"month":12,
+	"year":2014,
+	"yday":355,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"56",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"31",
+		"celsius":"-1"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NNW",
+		"degrees": 327
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "NNW",
+		"degrees": 327
+		},
+		"avehumidity": 60,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1419390000",
+	"pretty":"7:00 PM PST on December 23, 2014",
+	"day":23,
+	"month":12,
+	"year":2014,
+	"yday":356,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"low": {
+		"fahrenheit":"33",
+		"celsius":"1"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "E",
+		"degrees": 89
+		},
+		"avewind": {
+		"mph": 3,
+		"kph": 5,
+		"dir": "E",
+		"degrees": 89
+		},
+		"avehumidity": 71,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1419476400",
+	"pretty":"7:00 PM PST on December 24, 2014",
+	"day":24,
+	"month":12,
+	"year":2014,
+	"yday":357,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"25",
+		"celsius":"-4"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":80,
+		"qpf_allday": {
+		"in": 0.27,
+		"mm": 7
+		},
+		"qpf_day": {
+		"in": 0.06,
+		"mm": 2
+		},
+		"qpf_night": {
+		"in": 0.21,
+		"mm": 5
+		},
+		"snow_allday": {
+		"in": 0.5,
+		"cm": 1.3
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.5,
+		"cm": 1.3
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "SW",
+		"degrees": 233
+		},
+		"avewind": {
+		"mph": 18,
+		"kph": 29,
+		"dir": "SW",
+		"degrees": 233
+		},
+		"avehumidity": 54,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1419562800",
+	"pretty":"7:00 PM PST on December 25, 2014",
+	"day":25,
+	"month":12,
+	"year":2014,
+	"yday":358,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"38",
+		"celsius":"3"
+		},
+		"low": {
+		"fahrenheit":"19",
+		"celsius":"-7"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "NW",
+		"degrees": 316
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NW",
+		"degrees": 316
+		},
+		"avehumidity": 50,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}
