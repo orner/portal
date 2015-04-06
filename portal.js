@@ -2,6 +2,8 @@
 
 /*
  * Lance Orner, December 22, 2014
+ * April 6, 2015: Header is now fixed height, and doesn't change with
+ * callbacks
  */
 
 window.onload = init;
@@ -10,7 +12,7 @@ window.onload = init;
 var use_local = false;
 
 function init() {
-	getWeather();
+	getSparksWeather();
   getStirlingWeather();
   getStock();
 }
@@ -24,7 +26,7 @@ function init() {
  * Weather functions
  */
 
-function getWeather() {
+function getSparksWeather() {
   var url = "http://api.wunderground.com/api/b37c48462659c2fe/geolookup/conditions/forecast/q/39.64018250,-119.72023010.json";
   if (use_local) {
     url = "http://localhost/~lance/portal/weather.json";
@@ -33,7 +35,7 @@ function getWeather() {
   request.open("GET", url);
 	request.onload = function() {
 		if (request.status == 200) {
-			updateWeather(request.responseText);
+			updateWeather(request.responseText, "sparksWeather");
 		}
 	};
 	request.send(null);
@@ -48,15 +50,15 @@ function getStirlingWeather() {
   request.open("GET", url);
 	request.onload = function() {
 		if (request.status == 200) {
-			updateWeather(request.responseText);
+			updateWeather(request.responseText, "stirlingWeather");
 		}
 	};
 	request.send(null);
 
 }
 
-function updateWeather(responseText) {
-  var weatherDiv = document.getElementById("weather");
+function updateWeather(responseText, weatherId) {
+  var weatherDiv = document.getElementById(weatherId);
   var weather = JSON.parse(responseText);
 
   var location = weather['location']['city'];
@@ -66,8 +68,9 @@ function updateWeather(responseText) {
 
   var div = document.createElement("div");
   div.setAttribute("class", "tempurature");
-  div.innerHTML = location + ": " + observation + " and " + temp;
-  weatherDiv.appendChild(div);
+  div.innerHTML = observation + " and " + temp;
+  weatherDiv.innerHTML += div.innerHTML;
+  //weatherDiv.appendChild(div);
 }
 
 
@@ -112,7 +115,7 @@ function updateStock(responseText) {
     quoteSpan.appendChild(changeSpan);
     quoteSpan.innerHTML += "  ";
 
-    stockDiv.appendChild(quoteSpan);
+    stockDiv.innerHTML += quoteSpan.innerHTML;
   }
 
 }
