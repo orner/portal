@@ -6,6 +6,10 @@
  * callbacks
  */
 
+/* WUnderground.com was being used by somebody else, so API is
+ * disabled
+ */
+
 window.onload = init;
 
 // Use when debugging to prevent lots of hits to server
