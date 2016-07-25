@@ -75,7 +75,7 @@ function updateWeather(responseText, weatherId) {
 
 
 function getStock() {
-  var url = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22IGT%22%2C%22GOOG%22%2C%22MSFT%22%2C%22JCP%22)%0A%09%09&env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json";
+  var url = 'http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20("IGT","GOOG","MSFT","JCP","TSLA")%0A%09%09&env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json';
   var request = new XMLHttpRequest();
   request.open("GET", url);
 	request.onload = function() {
